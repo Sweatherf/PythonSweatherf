@@ -1,0 +1,9 @@
+nome = input("Seja bem vindo a central de atendimento! Digite o seu nome: ")
+idade = int(input("Digite a sua idade: "))
+comorbidade = input("Você padece alguma comorbidade?Digite S(SIM) OU N(NAO)")
+sim = "S"
+nao = "N"
+if idade >= 60 or comorbidade == sim:
+ print("Você pode receber vacina")
+else:
+ print("Você nao pode se vacinar")
