@@ -1,0 +1,18 @@
+note = int(input("Digite a sua nota: "))
+print("Estamos analisando a sua nota aguarde!!")
+nome = input("Digite o seu nome: ")
+turma = int(input("Digite a sua turma: "))
+print(f"Olá, {nome} da turma {turma}")
+resposta = input(f"Você Acha que aprovou??")
+sim = "sim"
+nao = "nao"
+if resposta == sim:
+     print("Você tem muita confiança")
+else:
+     print("Você tem pouca confianca")
+
+if note < 7:
+     print(f"{nome} sua nota foi {note}, Você Reprovou!!!")
+else:
+     print(f"{nome}sua nota foi {note}, Você Aprovou!!!")
+#Codigo mediano Python 2do codigo
