@@ -1,0 +1,17 @@
+lan1 = int(input("Digite a primeira puntuação: "))
+lan2 = int(input("Digite a segunda puntuação: "))
+lan3 = int(input("Digite a segunda puntuação: "))
+pontosTotais = lan1 + lan2 + lan3
+input(f"Puntuaçâo final é: {pontosTotais}")
+if pontosTotais == 15:
+    print("Deus da peteca!!")
+elif 10 <= pontosTotais <= 14:
+    print("petequeiro profissa")
+elif 5 <= pontosTotais <= 9:
+    print("petequeiro de final de semana")
+elif 1 <= pontosTotais <= 4:
+    print("pseudo-petequeiro")
+elif pontosTotais == 0:
+    print("Nunca petequeiro")
+else:
+    print("Digite valores reais")
