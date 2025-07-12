@@ -3,9 +3,10 @@ def verificar_nivel_dano(dano):
         print("Dano critico")
     else:
         print("Dano baixo")
+
 verificar_nivel_dano(35) # Dano critico
-//Si separas los 2 siguientes numeros con tab 2 veces genera un bug
 verificar_nivel_dano(10) # Dano baixo
 verificar_nivel_dano(5) # Dano baixo
+
 dano_usuario = int(input("Quanto dano voce fez?"))
 verificar_nivel_dano(dano_usuario)
