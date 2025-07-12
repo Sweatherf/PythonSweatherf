@@ -1,0 +1,7 @@
+soma_notas = 0
+qtdLoop = int(input("Seja bem-vindo, quantas notas você tem? "))
+for contador in range(qtdLoop):
+  nota = int(input("Digite uma nota: "))
+  soma_notas = soma_notas + nota
+media = soma_notas / qtdLoop
+print(f"A média de suas notas é:  {media:.2f}")
